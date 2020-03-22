@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2">
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:paddingLeft="160dp"
+        android:text="Login"
+        android:textColor="#ffff"
+        android:textSize="40sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Username"
+        android:layout_marginTop="300dp"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="35sp" />
+    <EditText
+        android:id="@+id/user_input"
+        android:layout_width="420dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/et_bg"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffff"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btnNextPage"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:text="LOGIN"
+        android:textColor="#ffff"
+        android:textSize="35sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Password"
+        android:layout_marginTop="390dp"
+        android:textAllCaps="true"
+        android:textColor="#ffff"
+        android:textSize="35sp" />
+    <EditText
+        android:id="@+id/pass_input"
+        android:layout_width="420dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/et_bg"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="#ffff"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="match_parent"
+        android:layout_height="132dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/icon1" />
+
+
+
+</FrameLayout>
